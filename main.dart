@@ -1,6 +1,8 @@
 import 'dart:io';
 import 'average_of_four.dart';
 import 'ejercicio_base.dart';
+import 'factorial_finder.dart';
+import 'in_range_validator.dart';
 import 'positive_power.dart'; 
 import 'double_or_triple.dart';
 import 'root_or_square.dart';
@@ -11,7 +13,8 @@ import 'tax_calculator.dart';
 import 'remainder_finder.dart';
 import 'sum_of_events.dart';
 import 'fraction_difference.dart';
-import 'string_length.dart'; 
+import 'string_length.dart';
+import 'vowel_counter.dart'; 
 
 void main() {
   List<EjercicioBase> ejercicios = [
@@ -27,6 +30,9 @@ void main() {
     StringLength(),
     AverageOfFour(),
     SmallestOfFive(),
+    VowelCounter(),
+    FactorialFinder(),
+    InRangeValidator(),
   ];
 
   bool salir = false;
