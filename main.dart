@@ -4,6 +4,12 @@ import 'positive_power.dart';
 import 'double_or_triple.dart';
 import 'root_or_square.dart';
 import 'circle_perimeter.dart';
+import 'midweek_day.dart';
+import 'tax_calculator.dart';
+import 'remainder_finder.dart';
+import 'sum_of_events.dart';
+import 'fraction_difference.dart';
+import 'string_length.dart'; 
 
 void main() {
   List<EjercicioBase> ejercicios = [
@@ -11,6 +17,12 @@ void main() {
     DoubleOrTriple(),
     RootOrSquare(),
     CirclePerimeter(),
+    MidweekDay(),
+    TaxCalculator(),
+    RemainderFinder(),
+    SumOfEvens(),
+    FractionDifference(),
+    StringLength(),
   ];
 
   bool salir = false;
