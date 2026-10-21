@@ -1,10 +1,12 @@
 import 'dart:io';
 import 'ejercicio_base.dart';
-import 'positive_power.dart'; // importar mas clases
+import 'positive_power.dart'; 
+import 'double_or_triple.dart';
+
 void main() {
   List<EjercicioBase> ejercicios = [
     PositivePower(),
-    // ir agregando mas ejercicios
+    DoubleOrTriple(),
   ];
 
   bool salir = false;
