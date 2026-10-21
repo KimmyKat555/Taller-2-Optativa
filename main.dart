@@ -1,10 +1,12 @@
 import 'dart:io';
+import 'average_of_four.dart';
 import 'ejercicio_base.dart';
 import 'positive_power.dart'; 
 import 'double_or_triple.dart';
 import 'root_or_square.dart';
 import 'circle_perimeter.dart';
 import 'midweek_day.dart';
+import 'smallest_of_five.dart';
 import 'tax_calculator.dart';
 import 'remainder_finder.dart';
 import 'sum_of_events.dart';
@@ -23,6 +25,8 @@ void main() {
     SumOfEvens(),
     FractionDifference(),
     StringLength(),
+    AverageOfFour(),
+    SmallestOfFive(),
   ];
 
   bool salir = false;
