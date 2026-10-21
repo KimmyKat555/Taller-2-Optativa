@@ -2,11 +2,13 @@ import 'dart:io';
 import 'ejercicio_base.dart';
 import 'positive_power.dart'; 
 import 'double_or_triple.dart';
+import 'root_or_square.dart';
 
 void main() {
   List<EjercicioBase> ejercicios = [
     PositivePower(),
     DoubleOrTriple(),
+    RootOrSquare(),
   ];
 
   bool salir = false;
