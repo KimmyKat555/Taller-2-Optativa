@@ -3,12 +3,14 @@ import 'ejercicio_base.dart';
 import 'positive_power.dart'; 
 import 'double_or_triple.dart';
 import 'root_or_square.dart';
+import 'circle_perimeter.dart';
 
 void main() {
   List<EjercicioBase> ejercicios = [
     PositivePower(),
     DoubleOrTriple(),
     RootOrSquare(),
+    CirclePerimeter(),
   ];
 
   bool salir = false;
